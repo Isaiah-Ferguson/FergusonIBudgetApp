@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+.divBG{
+    background-color: aquamarine;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(162, 131, 241);
+}
+
+.container1{
+    margin: 0 auto;
+    width: 350px;
+}
+
+.totalBG{
+    background-color: rgb(162, 131, 241);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aquamarine;
+    height: 300px;
+}
+
+.scroll {
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 15px;
+    flex-wrap: wrap;
+  }
+
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .delete-btn:hover img {
+    opacity: 0.7;
+  }
+  
+  .delete-btn:active img {
+    opacity: 0.5;
+  }
